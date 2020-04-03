@@ -3,7 +3,10 @@ package gui;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+<<<<<<< HEAD
 import java.util.Map;
+=======
+>>>>>>> 53b8b9d108263a367faa842346e3bc96b849005c
 import java.util.ResourceBundle;
 import java.util.Set;
 
@@ -81,10 +84,17 @@ public class DepartmentFormController implements Initializable{
 	}
 	
 	private void notifyDataChangeListeners() {
+<<<<<<< HEAD
 			for (DataChangeListener listener : dataChangeListeners) {
 				listener.onDataChanged();
 			}
 		}		
+=======
+		for(DataChangeListener listener : dataChangeListeners) {
+			listener.onDataChanged();
+		}
+	}
+>>>>>>> 53b8b9d108263a367faa842346e3bc96b849005c
 
 	private Department getFormData() {
 		Department obj = new Department();
