@@ -1,9 +1,7 @@
 # javafx-jdbc
 # Welcome to my JavaFX with JDBC project
 ## Main goal:
-1. Introduce the student to the development of JavaFX applications with JDBC
-1. Allow the student to know the fundamentals and the use of the tools, so that he can
-then continue studying, in a comfortable way, the specifics you want
+1. Introduce to the development of JavaFX applications with JDBC
 - [x] REQUIREMENTS: OO & Lambda & JDBC & JavaFX
 
 ## Local project created
@@ -82,8 +80,6 @@ then continue studying, in a comfortable way, the specifics you want
 ## About view
 - Checklist:
 - [x]  Include util classes to the project (Alerts.java, Constraints.java)
-https://github.com/acenelio/javafx5/blob/master/src/gui/util/Alerts.java
-https://github.com/acenelio/javafx5/blob/master/src/gui/util/Constraints.java
 - [x] Create About.fxml (VBox)
 - [x] In Main.java, expose mainScene reference
 - [x] In MainViewController.java, create loadView method
@@ -133,7 +129,6 @@ https://github.com/acenelio/javafx5/blob/master/src/gui/util/Constraints.java
 ## DepartmentList controller
 - Checklist:
 - [x] Create model.entities.Department.java
-https://github.com/acenelio/demo-dao-jdbc/blob/master/src/model/entities/Department.java
 - [x] Create DepartmentListController.java
 - [x] In view, associate controller, ids, events
 
@@ -363,7 +358,7 @@ https://stackoverflow.com/questions/32282230/fxml-javafx-8-tableview-make-a-dele
 ## Seller TableView
 - References:
 https://stackoverflow.com/questions/47484280/format-of-date-in-the-javafx-tableview
-Checklist:
+- Checklist:
 - [x] gui.utils.Util.java
 1. formatTableColumnDate method
 1. formatTableColumnDouble method
